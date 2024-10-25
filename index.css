@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c4b5fd;
+    color: #6b21a8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 5%;
+    padding: 0 2%;
+}
+
+h1 {
+    color: #6b21a8;
+    font-size: 2em;
+    margin: 0;
+}
+
+.message p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.moving-text {
+    margin: 20px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #6b21a8;
+    animation: move-text 10s linear infinite;
+}
+@keyframes move-text {
+0% {
+transform: translateX(100%); 
+}
+100% {
+transform: translateX(-100%); 
+}
+}
+.card:hover {
+    transform: scale(1.1); /* Makes the card 10% bigger */
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#specific-section {
+    background-color:#ddd6fe            ;
+    padding: 50px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+
+}
